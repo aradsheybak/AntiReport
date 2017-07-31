@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_above="@+id/textView5s"
+        android:id="@+id/lnrContainer"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtActive"
+            style="@style/textView"
+            android:background="#000000"
+            android:text="فعال سازی"/>
+
+        <TextView
+            android:id="@+id/txtRepairReport"
+            style="@style/textView"
+            android:background="#000000"
+            android:text="رفع ریپورت"/>
+
+        <TextView
+            android:id="@+id/txtAntiReport"
+            style="@style/textView"
+            android:background="#000000"
+            android:text="رفع بلاک"/>
+
+        <TextView
+            android:id="@+id/txtReturnMoney"
+            style="@style/textView"
+            android:background="#000000"
+            android:text="بازگشت وجه"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/textView"
+            android:background="#000000"
+            android:text="تماس با ما"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="9dp"
+        android:text="گروه برنامه نویسی دکتر آرمان"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

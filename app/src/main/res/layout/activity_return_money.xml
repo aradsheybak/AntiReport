@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@color/mainColor"
+    tools:context="wiadevelopers.com.antireport.ReturnMoneyActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="بازگشت وجه در صورت ناراضی بودن"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/lnrRoot"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnSend"
+        android:layout_below="@+id/txtTitle"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtName"
+            style="@style/ediTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="نام و نام خانوادگی"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/edtPayId"
+            style="@style/ediTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="شناسه پرداخت"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/edtPhone"
+            style="@style/ediTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="شماره تماس"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/edtExplain"
+            style="@style/ediTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="right"
+            android:hint="توضیحات"
+            android:inputType="textMultiLine"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:textColor="@color/textColor"
+        android:text="ارسال"/>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">رفع ریپورت</string>
+
+
+    <string name="repairReport1">تلگرام در تازه ترین بروز رسانی خود جدیدا ربات ربات 
+    @Spambot(اسپم بوت)
+    را ب ای رفع مشکل ریپورت اسپم کاربران خود  راندازی کرده است.
+تا حالا افراد زیادی به این شیوه موفق شدن از حالت ریپورت خارج بشن.
+پس از گزینه Start از منوی باز شه طبق تصویر زیر گزینه 
+"This is mistake"
+را انتخاب کنید.</string>
+    <string name="repairReport2">اگه  4 گزینه بالا رو مشاهده نکردید
+و فقط 3 گزینه تصویر زیر در آن وجود داشت</string>
+    <string name="repairReport3">نگران نباشید با زدن گزینه "Ok" به چت خاتمه بدید(در این حالت به شما پیامی میاد که به تاریخ میلادی میگه که دقیقا کی از ریپورت در میاین)
+پس اگه  "This is mistake" رو مشاهده نمودید رو اون کلیک کرده سپس گزینه "Yes" را انتخاب نموده</string>
+    <string name="repairReport4">و در صفحه جدید با زدن گزینه
+ "No never did that"
+تایید کنید که هیچ فعالیتی که باعث اذیت دیگران شود انجام نخواهید داد.</string>
+    <string name="repairReport5">سپس متن کوتاه زیر را در جواب ارسال کنید.
+Dear telegram support,
+
+My telegram account has been spammed suddenly and I cannot send message to any contacts whom I don"'"t have their number, if I am the chat starter.
+Kindly to fix the issue and remove the spam report.
+
+Best Regards</string>
+    <string name="repairReport6">با این کار طبق تصویر بالا متن زیر برای شما ارسال میشه.
+
+
+Thank you Your complaint has been seccessfully dubmitted,Our team s supervisors will chek it as soon as possible. If this was a mistake, all limitaitions will be lifted  for your account soon.
+
+تبریک میگم شما همه مراحل رو به درستی انجام دادید و بعد از چند روز تقریبا(یک هفته) اکانت شما درست خواهد شد.</string>
+
+    <string name="antiReport1">در تلگرام گزینه‌ای به نام چت محرمانه وجود دارد (Start Secret Caht)
+که با تکست سبز رنگ تایپ شده
+که در تصویر زیر میتونین مشاهدع کنین.
+که این مدل از گفتگو پس از مدتی حذف خواهد شد و در آرشیو مکالمات شما و طرف مقابل‌تان نیز ثبت نمی‌شود. خب زمانی که شما نیاز دارید تا با یک فرد غریبه گفتگو کنید و از طرفی احتمال می‌دهید وی شما را به عنوان اسپم، ریپورت خواهد کرد، توصیه می‌کنیم از این مدل از گفتگو بهره بگیرید. البته به‌خاطر داشته باشید که در هر لحظه فقط با یک نفر می‌توانید چنین گفتگویی را به راه بیندازید و فرد مقابل هم بایستی حتما آنلاین باشد.</string>
+</resources>
